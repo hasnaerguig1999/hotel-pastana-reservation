@@ -1,0 +1,181 @@
+.menu-items a:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ............//// Showcase styling ////......... */
+  
+  .showcase-area {
+    height: 50vh;
+    background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("../img/chambre\ 2\ personnes.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  }
+
+
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .guest_info {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Utilisation de Bootstrap pour styliser la forme */
+  /* form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="date"], select {
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .guest_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  */
+
+
+
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  
+
+
+
+
+
+  
+  input[type="search"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="search"]:hover {
+    background-color: #45a049;
+  }
+  
+  .guest_info {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
